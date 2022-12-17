@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // importar el modelo nota
-import publicaciones from '../models/publicaciones';
+const publicaciones =  require('../models/publicaciones');
 
 // Agregar un nuevo
 router.post('/nuevo_publicacion', async(req, res) => {
