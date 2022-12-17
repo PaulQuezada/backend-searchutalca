@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = requiere ('mongoose');
 const Schema = mongoose.Schema;
 
 const notaSchema = new Schema({
